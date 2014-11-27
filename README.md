@@ -3,11 +3,11 @@ emberjs-webgl-component-exp
 
 emberjs component using threejs for simple cube rendering
 
+cd frontend
+
 npm install 
 
 bower install
-
-cd frontend
 
 ember g ember-colpick
 
