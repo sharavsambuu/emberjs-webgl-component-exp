@@ -1,0 +1,10 @@
+width : {{input type="number" value=width}}
+height : {{input type="number" value=height}} <br>
+background color : {{col-pick-input value=backgroundColor}}
+cube color : {{col-pick-input value=cubeColor}}
+rotation speed : {{input type="number" value=rotationSpeed}}
+<hr>
+{{three-render width=width height=height
+    backgroundColor = backgroundColor
+    cubeColor       = cubeColor
+    rotationSpeed   = rotationSpeed}}
